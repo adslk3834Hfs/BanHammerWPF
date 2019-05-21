@@ -1,0 +1,288 @@
+﻿<Window x:Class="BanHammerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BanHammerWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Canvas>
+		<!--first Part-->
+
+		<Rectangle RadiusX="5" RadiusY="5" Width="40" Height="50" Stroke="red" StrokeThickness="2" Fill="#FFCFCFCF"  Canvas.Left="549" Canvas.Top="186" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="6.035"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle RadiusX="5" RadiusY="5" Width="42" Height="50" Stroke="red" StrokeThickness="2" Fill="#FFD3D2D1"  Canvas.Left="506" Canvas.Top="181" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="6.035"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle RadiusX="5" RadiusY="5" Width="42" Height="50" Stroke="red" StrokeThickness="2" Fill="#FFF1F1F1"  Canvas.Left="465" Canvas.Top="176" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="6.035"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+
+		<Polygon Points="0,0 40,0 40,45 0,45"  Stroke="red" Fill="#FFC3C3C3" Canvas.Left="551" Canvas.Top="187" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="186.253"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 40,0 40,45 0,45"  Stroke="red" Fill="#FFC3C3C3" Canvas.Left="508" Canvas.Top="184" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 41,0 41,45 0,45"  Stroke="red" Fill="#FFE4E3E3" Canvas.Left="463" Canvas.Top="178" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<!--second part-->
+
+		<Polygon Points="0,0 50,50, 0,50" Stroke="red" Fill="red" Canvas.Left="428" Canvas.Top="79" RenderTransformOrigin="0.5,0.5" Height="48" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="7.069"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 50,50 0,50" Stroke="red" Fill="red" Canvas.Left="337" Canvas.Top="66" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="275.849"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 50,50 0,50" Stroke="red" Fill="red" Canvas.Left="406" Canvas.Top="262" RenderTransformOrigin="0.5,0.5" Height="50" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="95.191"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 50,50 0,50" Stroke="red" Canvas.Left="311" Canvas.Top="250" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.Fill>
+				<LinearGradientBrush EndPoint="0.5,-1" MappingMode="RelativeToBoundingBox" StartPoint="-0.5,0">
+					<GradientStop Color="#FF801111" Offset="0."/>
+					<GradientStop Color="#FFF91E1E" Offset="0.2"/>
+				</LinearGradientBrush>
+			</Polygon.Fill>
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+
+		<Polygon Points="0 -3 45 0 46 49 2 45"  Stroke="red" Fill="WhiteSmoke" Canvas.Left="424" Canvas.Top="121" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<!--Rectangle Behind-->
+		<Rectangle RadiusX="5" RadiusY="5" Width="52" Height="56" Stroke="red" StrokeThickness="2" Fill="#FFF1F1F1"  Canvas.Left="416" Canvas.Top="168" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="8.968"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Polygon Points="0,0 45,0 46,49 0,45" StrokeThickness="3"  Stroke="#FFE4E4E4" Fill="red" Canvas.Left="418" Canvas.Top="167" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="188.225"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+
+
+
+		<Rectangle Name="centerCenter" RadiusX="8" RadiusY="8" Width="50" Height="50" Stroke="red" StrokeThickness="2" Fill="red" Canvas.Left="370" Canvas.Top="163" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="8.279"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Name="upperCenter" RadiusX="8" RadiusY="8" Width="50" Height="50" Stroke="red" StrokeThickness="2" Fill="AntiqueWhite"  Canvas.Left="375" Canvas.Top="116" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="7.992"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Rectangle Name="lowerCenter" RadiusX="8" RadiusY="8" Width="50" Height="50" Stroke="red" StrokeThickness="2" Fill="AntiqueWhite"  Canvas.Left="365" Canvas.Top="210" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="6.035"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Line X1="45" Y1="0" X2="0" Y2="45" StrokeThickness="1" Stroke="Black" Canvas.Left="377" Canvas.Top="119" RenderTransformOrigin="0.5,0.5">
+			<Line.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="6.708"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Line.RenderTransform>
+		</Line>
+		<Line X1="45" Y1="0" X2="0" Y2="45" StrokeThickness="1" Stroke="Black" Canvas.Left="375" Canvas.Top="168" RenderTransformOrigin="0.5,0.5">
+			<Line.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="8.021"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Line.RenderTransform>
+		</Line>
+		<Line X1="45" Y1="0" X2="0" Y2="45" StrokeThickness="1" Stroke="Black" Canvas.Left="368" Canvas.Top="212" RenderTransformOrigin="0.5,0.5">
+			<Line.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="5.571"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Line.RenderTransform>
+		</Line>
+		<Polygon Points="0,0 45,0 45,45 0,45"  Stroke="red" Fill="WhiteSmoke" Canvas.Left="414" Canvas.Top="218" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<!--Behind rectangle-->
+		<Rectangle RadiusX="5" RadiusY="5" Width="42" Height="50" Stroke="red" StrokeThickness="2" Fill="#FFF1F1F1"  Canvas.Left="321" Canvas.Top="156" RenderTransformOrigin="0.5,0.5">
+			<Rectangle.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="6.035"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Rectangle.RenderTransform>
+		</Rectangle>
+		<Polygon Points="0,0 45,0 45,45 0,49" StrokeThickness="2" Stroke="#FFE4E4E4" Fill="red" Canvas.Left="321" Canvas.Top="154" RenderTransformOrigin="0.5,0.5" Width="48" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.231"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 45,0 45,45 0,45"  Stroke="red" Fill="LightGray" Canvas.Left="318" Canvas.Top="203" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,5 46,0 44,42 0,49"  Stroke="red" Fill="#FFE4E4E4"  Canvas.Left="328" Canvas.Top="109" RenderTransformOrigin="0.5,0.5" Width="47" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 45,0 45,45 0,45"  Stroke="red" Fill="White" Canvas.Left="384" Canvas.Top="70" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+		<Polygon Points="0,0 45,0 45,45 0,45"  Stroke="red" Fill="#FFC3C3C3" Canvas.Left="361" Canvas.Top="259" RenderTransformOrigin="0.5,0.5" >
+			<Polygon.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="187.444"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Polygon.RenderTransform>
+		</Polygon>
+	</Canvas>
+</Window>
